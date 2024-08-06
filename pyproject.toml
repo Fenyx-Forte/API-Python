@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "api-python"
+version = "0.1.0"
+description = ""
+authors = ["Fenyx Forte <fenyx.studies@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+polars = {version = ">=1.3.0", extras = ["pyarrow"]}
+sendgrid = "^6.11.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
